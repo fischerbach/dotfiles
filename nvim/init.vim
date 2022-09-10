@@ -1,4 +1,3 @@
-
 syntax on
 set termguicolors
 set smartindent
