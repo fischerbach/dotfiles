@@ -99,3 +99,8 @@ set background=dark
 " inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#confirm() : "\<C-y>"
 
 lua require('rafalrybnik')
+
+augroup cdpwd
+    autocmd!
+    autocmd VimEnter * cd $PWD
+augroup END
