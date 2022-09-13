@@ -72,6 +72,7 @@ Plug 'junegunn/goyo.vim'
 " Floating Terminal Window
 Plug 'voldikss/vim-floaterm'
 
+Plug 'ferrine/md-img-paste.vim'
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
@@ -121,3 +122,8 @@ augroup cdpwd
     autocmd!
     autocmd VimEnter * cd $PWD
 augroup END
+
+autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
+" there are some defaults for image directory and image name, you can change them
+" let g:mdip_imgdir = 'img'
+" let g:mdip_imgname = 'image'
