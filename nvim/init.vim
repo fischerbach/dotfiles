@@ -69,6 +69,9 @@ Plug 'onsails/lspkind-nvim'
 " Distraction free writing
 Plug 'junegunn/goyo.vim'
 
+" Floating Terminal Window
+Plug 'voldikss/vim-floaterm'
+
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
