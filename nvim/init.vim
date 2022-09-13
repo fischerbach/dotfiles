@@ -66,6 +66,9 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'onsails/lspkind-nvim'
 
+" Distraction free writing
+Plug 'junegunn/goyo.vim'
+
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
