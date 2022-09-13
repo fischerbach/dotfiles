@@ -99,6 +99,15 @@ inoremap <A-Up> <Esc>:m .-2<CR>==gi
 vnoremap <A-Down> :m '>+1<CR>gv=gv
 vnoremap <A-Up> :m '<-2<CR>gv=gv
 
+nnoremap <A-S-Down> yyp 
+nnoremap <A-S-Up> :m .-2<CR>==
+inoremap <A-S-Down> <Esc>:m .+1<CR>==gi
+inoremap <A-S-Up> <Esc>:m .-2<CR>==gi
+vnoremap <A-S-Down> :m '>+1<CR>gv=gv
+vnoremap <A-S-Up> :m '<-2<CR>gv=gv
+
+
+
 " Toggling terminal
 nnoremap <leader>tt <cmd>FloatermToggle<CR>
 tnoremap <Esc> <cmd>FloatermToggle<CR>
