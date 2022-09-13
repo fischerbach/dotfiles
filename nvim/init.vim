@@ -101,7 +101,7 @@ vnoremap <A-Up> :m '<-2<CR>gv=gv
 
 " Toggling terminal
 nnoremap <leader>tt <cmd>FloatermToggle<CR>
-tnoremap <leader>tt <cmd>FloatermToggle<CR>
+tnoremap <Esc> <cmd>FloatermToggle<CR>
 
 " colorscheme molokai
 colorscheme synthwave84
