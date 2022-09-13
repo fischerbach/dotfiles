@@ -99,7 +99,7 @@ inoremap <A-Up> <Esc>:m .-2<CR>==gi
 vnoremap <A-Down> :m '>+1<CR>gv=gv
 vnoremap <A-Up> :m '<-2<CR>gv=gv
 
-nnoremap <S-Down> yyp<CR>== 
+nnoremap <S-Down> yyp<CR>==<Up>
 inoremap <S-Down> <Esc>yyp<CR>==gi<Down>
 vnoremap <S-Down> yp<CR>gv=gv
 
