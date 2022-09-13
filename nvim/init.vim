@@ -4,6 +4,7 @@ set smartindent
 
 set number
 set numberwidth=4
+set signcolumn=yes
 
 set incsearch
 set nohlsearch
