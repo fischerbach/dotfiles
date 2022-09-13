@@ -74,6 +74,9 @@ Plug 'voldikss/vim-floaterm'
 
 " Paste image to markdown (requires: pngpaste on MacOs, xclip on Linux)
 Plug 'ekickx/clipboard-image.nvim'
+
+" Code formater
+Plug 'sbdchd/neoformat'
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
