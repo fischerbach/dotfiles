@@ -99,6 +99,10 @@ inoremap <A-Up> <Esc>:m .-2<CR>==gi
 vnoremap <A-Down> :m '>+1<CR>gv=gv
 vnoremap <A-Up> :m '<-2<CR>gv=gv
 
+" Toggling terminal
+nnoremap <leader>tt <cmd>FloatermToggle<CR>
+tnoremap <leader>tt <cmd>FloatermToggle<CR>
+
 " colorscheme molokai
 colorscheme synthwave84
 set background=dark
