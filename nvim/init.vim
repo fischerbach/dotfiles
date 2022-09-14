@@ -76,6 +76,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'ekickx/clipboard-image.nvim'
 
 " Code formater
+" List of supported filetypes: https://github.com/sbdchd/neoformat#supported-filetypes
 Plug 'sbdchd/neoformat'
 call plug#end()
 
