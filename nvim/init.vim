@@ -109,7 +109,12 @@ nnoremap <S-Down> yyp<CR>==<Up>
 inoremap <S-Down> <Esc>yyp<CR>==gi<Down>
 vnoremap <S-Down> yp<CR>gv=gv
 
+" Disable s 
+nnoremap s <Nop>
 
+nnoremap <S-Up> <Nop>
+inoremap <S-Up> <Nop>
+vnoremap <S-Up> <Nop>
 
 " Toggling terminal
 nnoremap <leader>tt <cmd>FloatermToggle<CR>
