@@ -53,20 +53,9 @@ brew install ripgrep
 https://www.nerdfonts.com/
 Menlo cośtam jest spoko
 
-# LSP
-npm i -g vscode-langservers-extracted
-npm install -g intelephense
-# Zamiana
-/var
-cgn
-...
 
-# Multiline
-/var
-^V
-arrows
-edit
-esc
+#LSP
+npm i -g pyright
 
 # TODO
  - zapisywanie undotree
