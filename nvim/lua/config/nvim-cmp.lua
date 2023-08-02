@@ -29,9 +29,9 @@ cmp.setup({
         -- sourc: https://github.com/hrsh7th/nvim-cmp/wiki/Example-mappings#luasnip
         ["<Tab>"] = cmp.mapping(function(fallback)
             -- Hint: if the completion menu is visible select next one
-            if cmp.visible() then
-                cmp.select_next_item()
-            elseif has_words_before() then
+           -- if cmp.visible() then
+           --     cmp.select_next_item()
+            if has_words_before() then
                 cmp.complete()
             else
                 fallback()
